@@ -1,0 +1,294 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<!--<![endif]-->
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Power to Grow</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/main.css"> 
+    </head>
+ <body>
+  <!--[if lt IE 8]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div class=options> 
+    <a href="#contact" class="title hidden-xs tooltip">Contact<span class="tooltiptext">Send Message</span></a>
+    <a href="" class="hidden-xs"><img src="img/header_facebook.svg" alt="Follow Facebook"></a>
+    <a href="" class="hidden-xs"><img src="img/header_twitter.svg" alt="Follow Twitter"></a>
+    <a href="google.com" class="title language flx">ESP</a>
+  </div>
+   
+  <div class="container all">
+    <div class="header">
+      <header class="wrapper clearfix">
+        <a class="brand" href="#" >
+        <img src="img/powertogrow.jpg" alt="Brand Power To Grow">
+        </a>
+      </header>
+    </div>
+  </div>
+
+ 
+  <div class="main-publicity">
+    <div class=content>The<br> Innovation<br> challenge<br> fueled by<br> la red de<br> innovación<br> e impacto
+      <img src="img/ic-boss.png">
+    </div>
+    <div class="element flx">
+      <a href="#init">
+      <span>learn more</span>
+      <img src="img/ic-down.png">
+      </a> 
+    </div>
+  </div>
+  <div class="container all">
+    <article>
+      <section id="init">
+        <p class="txt-primary">People and economies thrive when micro-enterprises are empowered to reach their full potential. Power to Grow: The Innovation Challenge is a search to discover and reward organizations who are empowering micro-enterprises in Central America.</p>
+        <p class="txt-primary">If your organization is focused on increasing the capacity of Central American micro-enterprises to access regional and international markets, apply to Power to Grow by April 27th. Awardees will receive a comprehensive support package, up to $43,000 to promote their solution, and partnership with a current member organization of La Red de Innovación e Impacto. Working together, the awardee and La Red member will leverage shared experience and knowledge, benefit from cross-sector collaboration, and forge a coalition to empower micro-enterprises.</p>
+      </section>
+    </article>
+    <aside>
+      <h2>Where is your company creating impact?</h2>
+      <!-- <ul class="list-flg">
+        <li id="flag#01"><img src="img/flags/flag_01.png" alt=""></li>
+        <li id="flag#02"><img src="img/flags/flag_02.png" alt=""></li>
+        <li id="flag#03"><img src="img/flags/flag_03.png" alt=""></li>
+        <li id="flag#04"><img src="img/flags/flag_04.png" alt=""></li>
+        <li id="flag#05"><img src="img/flags/flag_05.png" alt=""></li>
+        <li id="flag#06"><img src="img/flags/flag_06.png" alt=""></li>
+        <li id="flag#07"><img src="img/flags/flag_07.png" alt=""></li>
+      </ul> -->
+      <ul class="list-flg">
+        <li id="flag#01"><span>Belize</span><img src="img/flags/flag_01.png" alt=""></li>
+        <li id="flag#02"><span>Guatemala</span><img src="img/flags/flag_02.png" alt=""></li>
+        <li id="flag#03"><span>Honduras</span><img src="img/flags/flag_03.png" alt=""></li>
+        <li id="flag#04"><span>El Salvador</span><img src="img/flags/flag_04.png" alt=""></li>
+        <li id="flag#05"><span>Costa Rica</span><img src="img/flags/flag_05.png" alt=""></li>
+        <li id="flag#06"><span>Panama</span><img src="img/flags/flag_06.png" alt=""></li>
+        <li id="flag#07"><span>Nicaragua</span><img src="img/flags/flag_07.png" alt=""></li>
+      </ul>
+      <div class="box aside">
+        <header>
+          <h3>Eligibility</h3>
+        </header>
+        <span id="flagContent">
+        </span>
+      </div>
+      <div class="wrap flx" >
+        <div class="box aside boxChils revel">
+          <header>
+            <h3>Awards</h3>
+          </header>
+          <h3>Power to Grow winners will receive:</h3>
+          <ul>
+            <li><i><img src="img/ic.png"></i>Lorem ipsum dolor sit</li>
+            <li><i><img src="img/ic.png"></i>Donec porttitor sodales</li>
+            <li><i><img src="img/ic.png"></i>Cras quis metus in elit</li>
+            <li><i><img src="img/ic.png"></i>Lorem ipsum dolor sit</li>
+          </ul>
+          <h3>Winners are <br>required to:</h3>
+          <ul>
+            <li><i><img src="img/ic.png"></i>Lorem ipsum dolor sit</li>
+            <li><i><img src="img/ic.png"></i>Donec porttitor sodales</li>
+            <li><i><img src="img/ic.png"></i>Cras quis metus in elit</li>
+            <li><i><img src="img/ic.png"></i>Lorem ipsum dolor sit</li>
+          </ul>
+        </div>
+        <div class="box aside boxChils revel">
+          <header>
+            <h3>Process</h3>
+          </header>
+          <h3>Application and selection process is as follows:</h3>
+          <ul>
+            <li><i><img src="img/ic.png"></i>Lorem ipsum dolor sit</li>
+            <li><i><img src="img/ic.png"></i>Donec porttitor sodales</li>
+            <li><i><img src="img/ic.png"></i>Cras quis metus in elit</li>
+            <li><i><img src="img/ic.png"></i>Lorem ipsum dolor sit</li>
+          </ul>
+        </div>
+      </div> 
+
+      <button class="aply">Apply now</button> 
+      <hr>
+    </aside>
+    <article class="revel">
+      <section >
+        <p class="txt-primary">Up to 95% of companies in Central America are Micro, Small, and Medium Enterprises (MSMEs). The success of these companies and the prosperity of communities are inextricably linked. But, many struggle to grow and remain competitive in the global marketplace.
+          Power to Grow: The Innovation Challenge Fueled by La Red de Innovación e Impacto aims to support micro-enterprises by creating partnerships between mission-aligned organizations and current La 
+          Red members.
+        </p>
+        <p class="txt-primary"><i><img src="img/ic.png"></i>Accelerating innovation and job creation opportunities for Central American micro-enterprises in the agriculture, agro-industry, and textiles sectors;</p>
+        <p class="txt-primary"><i><img src="img/ic.png"></i>Building capacity of micro-enterprises to expand to new regional and international markets, with a focus on the U.S. market; and,</p>
+        <p class="txt-primary"><i><img src="img/ic.png"></i>Building capacity of micro-enterprises to expand to new regional and international markets, with a focus on the U.S. market; and,</p>
+      </section>
+      <div class="select">
+        <a href="#" class="ghost flx">Visit our FAQ for additional information</a>
+        <a href="#" class="ghost flx">View our media toolkit</a>
+      </div>
+    </article>
+    <hr>
+    <section  class="revel">
+      <div >
+        <form class="contact" id="contact" method="post" action="send.php">
+          <h2>Questions?</h2>
+          <p>Contact a member of our team.</p>
+          <input type="name" name="name"  placeholder="Full name" maxlength="30" required>
+          <input type="email" name="email" placeholder="E-mail" maxlength="40" required>
+          <textarea name="mensagem">Message</textarea>
+          <button type="submit" name="submit"  class="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </div>
+  <section class="smedia">
+    <div class="social-media flx">
+      <span>connect</span>
+      <a href=""><img src="img/footer_facebook.svg" alt="Connect Facebook"></a>   
+      <a href=""><img src="img/footer_twitter.svg" alt="Connect Twitter"></a>   
+    </div>
+  </section>
+  <footer>
+    <div class="select">
+      <a href=""><img class="revel" src="img/footer_brands_01.png" alt="Twitter"></a>  
+      <a href=""><img class="revel" src="img/footer_brands_02.png" alt="Twitter"></a>  
+      <a href=""><img class="revel" src="img/footer_brands_03.png" alt="Twitter"></a>  
+      <a href=""><img class="revel" src="img/footer_brands_04.png" alt="Twitter"></a>  
+    </div>
+    <div> Copyright © 2018 World Environment Center. All Rights Reserved.</div>
+  </footer>
+  <!-- FlAG CONTENT -->
+  <div id="content-01" class="textFlagContent">
+  
+  </div>
+  <div id="content-02" class="textFlagContent">
+    
+<div class="wrap"> 
+      <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
+      <ul>
+        <h3>Common requirements:</h3>
+        <li> <i><img src="img/ic.png"></i>Organization legally registered as a nonprofit. This includes NGOs, industry associations, cooperatives, foundations, academia, and other similar institutions;</li>
+        <li><i><img src="img/ic.png"></i>Experience in industry sectors to be assisted (agriculture, agro-industry and/or textile);</li>
+        <li><i><img src="img/ic.png"></i> A network of, or access to, micro-enterprise beneficiaries;</li>
+        <li><i><img src="img/ic.png"></i> Experience in collaborations with private sector, NGOs, government and international entities providing assistance to cooperation programs, entrepreneurs, small farmers, small agriculture producers and/or SME’s (preferably micro and small enterprises);</li>
+        <li><i><img src="img/ic.png"></i> Experience on scaling micro enterprises´ competitiveness, preferably related to improve exports;</li>
+        <li><i><img src="img/ic.png"></i> Experience of more than five years on program execution in the areas being proposed (agriculture, agro-industry and/or textile);</li>
+        <li><i><img src="img/ic.png"></i> Permanent presence in country to execute project activities with La Red Alumni, preferably with knowledge of the Central America region and international markets;</li>
+        <li><i><img src="img/ic.png"></i> Capacity to manage, technical assistance for the framework of international cooperation programs;</li>
+        <li><i><img src="img/ic.png"></i> Capacity to speak Spanish;</li>
+        <li><i><img src="img/ic.png"></i> Available staff and organizational capacity to provide technical assistance and trainings.</li>
+      </ul> 
+      <div><span>Alumni Partner:</span> Vista Volcanes</div>
+      <ul>  
+        <li><i><img src="img/ic.png"></i> Knowledge of agriculture sector, preferably with vegetable production;  </li>
+        <li><i><img src="img/ic.png"></i> Verifiable experience on past executed projects assisting small farmers;</li>
+        <li><i><img src="img/ic.png"></i> Willing to work collaboratively with Vista Volcanes (VV). This would also require conducing site visits to VV´s facilities located in Chimaltenango and learn from VV´s experience, beneficiaries and network, including joint efforts to receive VV´s technicians for support and follow up where the incoming class operates;</li>
+        <li><i><img src="img/ic.png"></i> Knowledge on exports and certification of agricultural products and small farmers;</li> 
+        <li><i><img src="img/ic.png"></i> Willing to implement organic agricultural practices and technologies, friendly with the environment in the locations where the alumni operates.</li> 
+      </ul>
+    </div>
+  </div>
+  <div id="content-03" class="textFlagContent">
+    <p> desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sob </p>
+  </div>
+  <div id="content-04" class="textFlagContent">
+    <p>04 - Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+  </div>
+  <div id="content-05" class="textFlagContent">
+    <p>05 - Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+  </div>
+  <div id="content-05" class="textFlagContent">
+    <p>05 - Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+  </div>
+  <div id="content-06" class="textFlagContent">
+    <p>06 - Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+  </div>
+  <div id="content-07" class="textFlagContent">
+    <p>07 - Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+  </div>
+</body>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<script>
+    // Changing the defaults
+window.sr = ScrollReveal({ reset: true });
+
+// Customizing a reveal set
+ 
+sr.reveal('.revel', { duration: 1500 });
+</script>
+<script>
+    var getFlag=document.querySelectorAll('ul.list-flg li');
+    var getContFleg=document.querySelectorAll('.textFlagContent');
+    var innerCont=document.getElementById("flagContent");  
+    var actv=[];
+    innerCont.innerHTML="<p class=PMs>Please. Select country above to  check Eligibility</p>"
+        // getFlag.style.opacity="0.1"
+  
+        for (var i = 0; i < getFlag.length; i++) {
+        getFlag[i].style.opacity="0.5"
+        if (window.matchMedia("(max-width: 1200px)").matches){   
+          getFlag[i].addEventListener('touchmove', function(e) { 
+
+            console.log(">",actv.length)
+            if(actv.length==0) {
+                    actv.push(this)
+                    actv[0].classList.add("flagOpacity")  
+
+                }else { 
+ 
+                    actv[0].classList.remove("flagOpacity") 
+                    actv.pop();actv.push(this)
+                    // console.log("2",actv.length)
+                     actv[0].classList.add("flagOpacity") 
+
+                }
+
+          }, false);
+      }
+          
+            getFlag[i].onclick=function(){ 
+
+ 
+                if(actv.length==0) {
+                    actv.push(this)
+                    actv[0].classList.add("flagOpacity")  
+
+                }else { 
+                    actv[0].classList.remove("flagOpacity") 
+                    actv.pop();actv.push(this)
+                  
+                    actv[0].classList.add("flagOpacity") 
+
+                }
+
+                var getID=this.getAttribute("id").split("#"); 
+                var getContThis=document.getElementById('content-'+getID[1]).innerHTML; 
+                if(getContThis!=null) innerCont.innerHTML=getContThis ; 
+           
+          }
+        }
+
+$("a").click(function(event){
+   event.preventDefault();
+   var dest=0;
+   if($(this.hash).offset().top > $(document).height()-$(window).height()){
+     dest=$(document).height()-$(window).height();
+   }else{
+     dest=$(this.hash).offset().top;
+   }
+   $('html,body').animate({scrollTop:dest}, 1000,'swing');
+ });
+</script> 
+ 
+
+
+</html>
+
