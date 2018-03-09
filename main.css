@@ -128,13 +128,12 @@ a.tooltip:hover .tooltiptext {
 }
 
 .main-publicity {
-    height: 460px; 
-    background: #58154a url(../img/bg-full.jpg) no-repeat bottom right; 
+    height: 460px;
+    background: #58154a url(../img/bg-full.jpg) no-repeat bottom right;
     min-height: 100%;
     max-height: 100%;
-    position: relative; 
+    position: relative;
     background-attachment: fixed;
-    
 }
 
 .main-publicity > .content, .social-media span, button.aply, aside h2, a.ghost, .box.aside header h3, .box.aside h3, form.contact h2, form.contact p, textarea, .submit, input, p.PMs {
@@ -191,12 +190,10 @@ a.tooltip:hover .tooltiptext {
     width: 8px;
 }
 
-.box.aside  span, h3, ul {
+.box.aside  span, h3, ul, p {
     padding: 20px;
 }
 
-
- 
 .box.aside  span p {
     text-align: left;
     font-weight: bold;
@@ -217,7 +214,7 @@ ul.list-flg li {
     flex-wrap: wrap;
     text-align: center;
 }
-    
+
 .flagOpacity {
     opacity: 1 !important;
     transition: .3s;
@@ -227,9 +224,10 @@ ul.list-flg li {
 ul.list-flg li {
     transition: 0.3s
 }
+
 ul.list-flg span {
     display: inline-block;
-    text-align: center; 
+    text-align: center;
     width: 100%
 }
 
@@ -242,16 +240,23 @@ ul.list-flg img {
     cursor: pointer;
 }
 
-span#flagContent ul{
-    padding: 0px; 
+span#flagContent ul {
+    padding: 0px;
 }
 
 span#flagContent, p.PMs {
- display: block
+    display: block
 }
 
-    span.ref {padding: 15px 0 !important; display: inline-block;}
-.ref-content {margin:25px 0 }
+span.ref {
+    padding: 15px 0 !important;
+    display: inline-block;
+}
+
+.ref-content {
+    margin: 25px 0
+}
+
 p.PMs {
     font-weight: bold;
     text-align: center !important;
@@ -346,18 +351,21 @@ a.ghost {
 }
 
 .txt-primary i {
-
-width: 10px;
-height: 10px;   
+    width: 10px;
+    height: 10px;
 }
 
-#flagContent .wrap h2,#flagContent .wrap h3 {
-        width:  inherit;
-        text-align:     left;  
-       
+#flagContent .wrap h2, #flagContent .wrap h3 {
+    width: inherit;
+    text-align: left;
+}
 
-    }
-#flagContent .wrap ul li { padding-top: 25px;display: flex;margin: 0px;}
+#flagContent .wrap ul li {
+    padding-top: 25px;
+    display: flex;
+    margin: 0px;
+}
+
 .txt-second {
     color: #a2a2a2;
 }
@@ -463,14 +471,15 @@ footer .select img {
     }
 
 }
+
 @media(min-width:1400px) {
     .main-publicity {
-    
-    min-height: 720px;
-}
-}
-@media(min-width:1024px) {
+        min-height: 720px;
+    }
 
+}
+
+@media(min-width:1024px) {
     .main-publicity {
         display: flex;
         flex-direction: row-reverse;
@@ -501,23 +510,28 @@ footer .select img {
     .box.aside header {
         background: #58154a;
     }
+
     ul.list-flg li:hover {
         opacity: 1 !important;
     }
-    .boxChils h3, ul {
- 
-    width:210px;
-    margin: 0 auto;
-}
-#flagContent ul,h2{
-    width:  inherit;    
-}
+
+    .boxChils h3, .boxChils ul, .boxChils p{
+        width: 300px;
+        margin: 0 auto;
+        padding-left:0px; 
+    }
+
+    #flagContent ul, h2 {
+        width: inherit;
+    }
 
 }
 
 @media(min-width:768px) {
     #flagContent {
-    padding:35px  }
+        padding: 35px
+    }
+
     .container.all {
         padding: 0;
         width: 70%
@@ -570,28 +584,25 @@ footer .select img {
     .wrap.flx div:last-child {
         margin-right: 0px
     }
+
     #flagContent .wrap h2, #flagContent .wrap h3 {
-     font-size: 20px;
-     padding:0px; 
+        font-size: 20px;
+        padding: 0px;
     }
- 
 
     article {
         margin: 75px auto;
     }
+
     .brand img {
-    width: 280px; 
-    padding: 10px 0 30px;
-    transition: .3s
- 
+        width: 280px;
+        padding: 10px 0 30px;
+        transition: .3s
     }
+
     footer .select img {
- 
-    min-width: 80px;
-     
-}
-
-
+        min-width: 80px;
+    }
 
 }
 
@@ -629,15 +640,19 @@ footer .select img {
 @media(max-width:1366px) {
 }
 
-
 @media(min-width:1366px) {
     .container.all {
         padding: 0;
-        width:
-         50%;
+        width: 50%;
     }
+
     .main-publicity {
-    height: 420px;
+        height: 420px;
+    }
+
+    .boxChils h3, .boxChils ul, .boxChils p{
+        width: 243px;
+     
     }
 
 }
@@ -646,10 +661,9 @@ footer .select img {
     section.smedia {
         background: url(../img/bg-green.png) no-repeat bottom right;
         background-color: #abcf37;
-         background-attachment: fixed;
-         min-height: 100%;
-         max-height: 100%;
-
+        background-attachment: fixed;
+        min-height: 100%;
+        max-height: 100%;
     }
 
 }
