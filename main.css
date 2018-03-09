@@ -242,12 +242,16 @@ ul.list-flg img {
     cursor: pointer;
 }
 
+span#flagContent ul{
+    padding: 0px; 
+}
+
 span#flagContent, p.PMs {
  display: block
 }
 
     span.ref {padding: 15px 0 !important; display: inline-block;}
-
+.ref-content {margin:25px 0 }
 p.PMs {
     font-weight: bold;
     text-align: center !important;
@@ -512,6 +516,8 @@ footer .select img {
 }
 
 @media(min-width:768px) {
+    #flagContent {
+    padding:35px  }
     .container.all {
         padding: 0;
         width: 70%
@@ -584,6 +590,8 @@ footer .select img {
     min-width: 80px;
      
 }
+
+
 
 }
 
