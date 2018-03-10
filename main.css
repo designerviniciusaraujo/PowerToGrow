@@ -207,12 +207,26 @@ a.tooltip:hover .tooltiptext {
 }
 
 .moreContent {
-    position: absolute;
-    width: 100%;
+        position: absolute;
+    width: 100% !important;
     padding: 0;
     margin: 0px;
-    bottom: 0;
+    bottom: -40px;
+    background: transparent;       display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 -7px 107px #969696;
 }
+ .moreContent button:first-child {
+     background: #eee;
+    border-radius: 10px;
+    border: 0px;
+    padding: 7px;
+    margin: 5px;
+    position: relative;
+    bottom: 40px;
+    font-size: 10px;
+    cursor:     pointer;                       
+ }
 
 .box.aside:hover {
 }
@@ -232,7 +246,7 @@ ul.list-flg::-webkit-scrollbar-track {
 
 ul.list-flg::-webkit-scrollbar {
     width: 6px;
-    height: 3px;
+    height: 5px;
     background-color: #F5F5F5;
 }
 
@@ -248,7 +262,6 @@ ul.list-flg::-webkit-scrollbar-thumb {
 }
 
 .box.aside header h3 {
-    padding: 10px;
     font-weight: bold;
     text-align: center;
     font-size: 32px;
@@ -269,7 +282,7 @@ ul.list-flg::-webkit-scrollbar-thumb {
 }
 
 .box.aside  span, h3, ul, p {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .box.aside  span p {
@@ -360,6 +373,7 @@ button.aply {
     cursor: pointer;
     text-transform: uppercase;
     outline-color: #93b504;
+
 }
 
 button.submit {
@@ -681,7 +695,7 @@ footer .select img {
     }
 
     .brand img {
-        width: 280px;
+        width: 250px;
         padding: 10px 0 30px;
         transition: .3s
     }
@@ -733,7 +747,7 @@ footer .select img {
     }
 
     .main-publicity {
-        height: 420px;
+        height: 400px;
     }
 
     .boxChils h3, .boxChils ul, .boxChils p {
