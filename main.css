@@ -170,6 +170,8 @@ a.tooltip:hover .tooltiptext {
 
 .box.aside.eligibility {
     height: auto;
+    /*overflow-y:auto;*/
+    max-height: 100%; 
 }
 /*
  *  STYLE 3
@@ -338,6 +340,15 @@ a.ghost {
     align-items: center;
     font-weight: bold;
     color: #2d2b2b;
+    transition:  .3s;
+}
+
+a.ghost:hover {
+
+        box-shadow: 0px 8px 8px #eee;
+
+    transition:  .3s;       
+    text-decoration:    underline;  
 }
 
 .element {
