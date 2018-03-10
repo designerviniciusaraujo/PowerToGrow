@@ -12,6 +12,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/main.css"> 
+        <link rel="icon" type="image/png" href="favicon-96x96.png"/>
+
     </head>
  <body>
   <!--[if lt IE 8]>
@@ -75,7 +77,7 @@
       </ul>
       <div class="box aside eligibility">
         <header>
-          <h3>Eligibility</h3>
+          <h3 id="flgTittle">Eligibility</h3>
         </header>
         <span id="flagContent">
         </span>
@@ -83,7 +85,7 @@
       <div class="wrap flx" >
         <div class="box aside boxChils revel">
         <div class="moreContent"> 
-            More +    
+            <button class="more">Read More</button>    
         </div>
           <header>
             <h3>Awards</h3>
@@ -106,7 +108,7 @@
         </div>
         <div class="box aside boxChils revel">
         <div class="moreContent"> 
-            More +    
+            <button class="more">Read More</button>    
         </div>
           <header>
             <h3>Process</h3>
@@ -183,7 +185,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <!-- FlAG CONTENT -->
   <div id="content-01" class="textFlagContent">
-    <span class="ref" style="font-size: 12px">> Belize</span>
+    <span class="ref" style="font-size: 12px">> Eligibility for Belize</span>
     <div class="wrap"> 
       <h2>Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
@@ -218,7 +220,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <div id="content-02" class="textFlagContent">    
     <div class="wrap">  
-      <span class="ref" style="font-size: 12px">> Guatemala</span>
+      <span class="ref" style="font-size: 12px">> Eligibility for Guatemala</span>
       <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
         <h3>Common requirements:</h3>
@@ -249,7 +251,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <div id="content-03" class="textFlagContent">
     <div class="wrap">  
-      <span class="ref" style="font-size: 12px">> Honduras</span>
+      <span class="ref" style="font-size: 12px">> Eligibility for Honduras</span>
       <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
         <h3>Common requirements:</h3>
@@ -280,7 +282,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <div id="content-04" class="textFlagContent">
     <div class="wrap">  
-      <span class="ref" style="font-size: 12px">> El Salvador</span>
+      <span class="ref" style="font-size: 12px">> Eligibility for El Salvador</span>
       <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
         <h3>Common requirements:</h3>
@@ -312,7 +314,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <div id="content-05" class="textFlagContent">
     <div class="wrap">  
-      <span class="ref" style="font-size: 12px">> Costa Rica</span>
+      <span class="ref" style="font-size: 12px">> Eligibility for Costa Rica</span>
       <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
         <h3>Common requirements:</h3>
@@ -343,7 +345,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <div id="content-06" class="textFlagContent">
    <div class="wrap">  
-      <span class="ref" style="font-size: 12px">> Panama</span>
+      <span class="ref" style="font-size: 12px">> Eligibility for Panama</span>
       <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
         <h3>Common requirements:</h3>
@@ -375,7 +377,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <div id="content-07" class="textFlagContent">
     <div class="wrap">  
-      <span class="ref" style="font-size: 12px">> Nicaragua</span>
+      <span class="ref" style="font-size: 12px">> Eligibility for Nicaragua</span>
       <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
         <h3>Common requirements:</h3>
@@ -417,8 +419,10 @@ window.sr = ScrollReveal({ reset: true });
  
 sr.reveal('.revel', { duration: 1500 });
 </script>
-<script>
+<script> 
+
     var getFlag=document.querySelectorAll('ul.list-flg li');
+    var getFlagTittle=document.getElementById ('flgTittle');
     var getContFleg=document.querySelectorAll('.textFlagContent');
     var innerCont=document.getElementById("flagContent");  
     var actv=[];
@@ -446,19 +450,28 @@ sr.reveal('.revel', { duration: 1500 });
 
           }, false);
       }
-          
+              
             getFlag[i].onclick=function(){ 
 
  
                 if(actv.length==0) {
-                    actv.push(this)
+                    // actv.push(this)
+                    actv.push(this,this.childNodes[0].innerHTML)
+                    console.log(actv)
                     actv[0].classList.add("flagOpacity")  
+                    console.log(getFlagTittle)
+                    getFlagTittle.innerHTML+=" for "+actv[1]
 
                 }else { 
-                    actv[0].classList.remove("flagOpacity") 
-                    actv.pop();actv.push(this)
-                  
+                    actv[0].classList.remove("flagOpacity")     
+                    console.log(actv)
+                    getFlagTittle.innerHTML="Eligibility"
+                    actv=[];
+                    console.log(actv)
+                    actv.push(this,this.childNodes[0].innerHTML) 
                     actv[0].classList.add("flagOpacity") 
+                    getFlagTittle.innerHTML+=" for "+actv[1]
+
 
                 }
 
@@ -468,6 +481,20 @@ sr.reveal('.revel', { duration: 1500 });
            
           }
         }
+
+//Função read more
+
+ 
+
+var getBox=document.querySelectorAll("box")
+
+for (var i = 0; i < getBox.length; i++) {
+  console.log("getBox[i]",getBox[i])
+  
+}
+console.log('getBox',getBox);  
+
+
 
 $("a.anchor").click(function(event){
    event.preventDefault();
