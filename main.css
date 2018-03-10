@@ -1,6 +1,45 @@
+@font-face {
+    font-family: Museo;
+    src: url("../fonts/Museo.otf") format("opentype")
+}
 
-@font-face{font-family:Museo;src:url("../fonts/Museo.otf") format("opentype")}@font-face{font-family:Museo-Regular;font-weight:bold;src:url("../fonts/Museo300-Regular.otf") format("opentype")}@font-face{font-family:MuseoBold;font-weight:bold;src:url("../fonts/museo700.otf") format("opentype")}
-::-webkit-input-placeholder{color:#afaeae}::-moz-placeholder{color:#afaeae}:-ms-input-placeholder{color:#afaeae}:-moz-placeholder{color:#afaeae}::-moz-selection{color:#fff;background:#581249}::selection{color:#fff;background:#581249}
+@font-face {
+    font-family: Museo-Regular;
+    font-weight: bold;
+    src: url("../fonts/Museo300-Regular.otf") format("opentype")
+}
+
+@font-face {
+    font-family: MuseoBold;
+    font-weight: bold;
+    src: url("../fonts/museo700.otf") format("opentype")
+}
+
+::-webkit-input-placeholder {
+    color: #afaeae
+}
+
+::-moz-placeholder {
+    color: #afaeae
+}
+
+:-ms-input-placeholder {
+    color: #afaeae
+}
+
+:-moz-placeholder {
+    color: #afaeae
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #581249
+}
+
+::selection {
+    color: #fff;
+    background: #581249
+}
 
 * {
     margin: 0;
@@ -157,44 +196,49 @@ a.tooltip:hover .tooltiptext {
 }
 
 .box.aside {
+    position: relative;
     background: #efefef;
     border-radius: 3px;
     margin-bottom: 20px;
-   max-height: 500px;
+    max-height: 500px;
     overflow: hidden;
     height: 500px;
-        box-shadow: inset 0 -75px 138px -22px #cacaca; 
+    box-shadow: inset 0 -75px 138px -22px #cacaca;
 }
 
-.box.aside:hover {}
+.moreContent {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    bottom: 0;
+}
+
+.box.aside:hover {
+}
 
 .box.aside.eligibility {
-    height: auto;
-    /*overflow-y:auto;*/
-    max-height: 100%; 
+    height: auto;    /*overflow-y:auto;*/
+    max-height: 100%;
 }
+
 /*
  *  STYLE 3
  */
-
-ul.list-flg::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+ul.list-flg::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: #F5F5F5;
 }
 
-ul.list-flg::-webkit-scrollbar
-{
+ul.list-flg::-webkit-scrollbar {
     width: 6px;
     height: 3px;
     background-color: #F5F5F5;
 }
 
-ul.list-flg::-webkit-scrollbar-thumb
-{
-    background-color: #909090   ;
+ul.list-flg::-webkit-scrollbar-thumb {
+    background-color: #909090;
 }
-
 
 .box.aside header {
     background: #ea4b22;
@@ -340,15 +384,13 @@ a.ghost {
     align-items: center;
     font-weight: bold;
     color: #2d2b2b;
-    transition:  .3s;
+    transition: .3s;
 }
 
 a.ghost:hover {
-
-        box-shadow: 0px 8px 8px #eee;
-
-    transition:  .3s;       
-    text-decoration:    underline;  
+    box-shadow: 0px 8px 8px #eee;
+    transition: .3s;
+    text-decoration: underline;
 }
 
 .element {
@@ -473,7 +515,8 @@ footer div:last-child {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 60px 0px
+    padding: 130px 0px;
+    margin: 100px auto;
 }
 
 .social-media span {
@@ -558,10 +601,10 @@ footer .select img {
         opacity: 1 !important;
     }
 
-    .boxChils h3, .boxChils ul, .boxChils p{
+    .boxChils h3, .boxChils ul, .boxChils p {
         width: 300px;
         margin: 0 auto;
-        padding-left:0px; 
+        padding-left: 0px;
     }
 
     #flagContent ul, h2 {
@@ -693,9 +736,8 @@ footer .select img {
         height: 420px;
     }
 
-    .boxChils h3, .boxChils ul, .boxChils p{
+    .boxChils h3, .boxChils ul, .boxChils p {
         width: 243px;
-     
     }
 
 }
