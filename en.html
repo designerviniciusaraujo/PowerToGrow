@@ -5,16 +5,15 @@
 <!--[if gt IE 8]><!--> 
 <!--<![endif]-->
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Power to Grow</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/main.css"> 
-        <link rel="icon" type="image/png" href="favicon-96x96.png"/>
-
-    </head>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Power to Grow</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/main.css"> 
+      <link rel="icon" type="image/png" href="favicon-96x96.png"/>
+  </head>   
  <body>
   <!--[if lt IE 8]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -72,8 +71,8 @@
         <li id="flag#03"><span>Honduras</span><img src="img/flags/flag_03.png" alt=""></li>
         <li id="flag#04"><span>El Salvador</span><img src="img/flags/flag_04.png" alt=""></li>
         <li id="flag#05"><span>Costa Rica</span><img src="img/flags/flag_05.png" alt=""></li>
-        <li id="flag#06"><span>Panama</span><img src="img/flags/flag_06.png" alt=""></li>
-        <li id="flag#07"><span>Nicaragua</span><img src="img/flags/flag_07.png" alt=""></li>
+        <li id="flag#06"><span>Panamá</span><img src="img/flags/flag_06.png" alt=""></li>
+        <li id="flag#07"><span>Nicarágua</span><img src="img/flags/flag_07.png" alt=""></li>
       </ul>
       <div class="box aside eligibility">
         <header>
@@ -344,7 +343,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <div id="content-06" class="textFlagContent">
    <div class="wrap">  
-      <!-- <span class="ref" style="font-size: 12px">> Eligibility for Panama</span> -->
+      <!-- <span class="ref" style="font-size: 12px">> Eligibility for Panamá</span> -->
       <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
         <h3>Common requirements:</h3>
@@ -362,10 +361,10 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
       <div class="ref-content"><br>
       <h3>Specific requirements for incoming Class candidates to work with each respective alumni:</h3><br><br>
 
-      <h3>Alumni Partner: CONEP / Panama Cleaner Production Center</h3></div>
+      <h3>Alumni Partner: CONEP / Panamá Cleaner Production Center</h3></div>
       <ul>  
         <li><i><img src="img/ic.png"></i>Specific knowledge of the dairy and cattle sector, its productivity development, competitiveness, diversification and efficient use of resources, from the supply chain of dairy producers;</li>
-        <li><i><img src="img/ic.png"></i>Experience with direct technical assistance to small dairy producers in the Western region in Panama;</li>
+        <li><i><img src="img/ic.png"></i>Experience with direct technical assistance to small dairy producers in the Western region in Panamá;</li>
         <li><i><img src="img/ic.png"></i> Technical experience in the implementation of management system with small producers (preferably dairy producers), including trainings on administrative and commercial skills;</li>
         <li><i><img src="img/ic.png"></i>Experience and willingness to work collaboratively with other organizations;</li> 
         <li><i><img src="img/ic.png"></i> Knowledge on environmental aspects related to the dairy sector;</li> 
@@ -376,7 +375,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
 
   <div id="content-07" class="textFlagContent">
     <div class="wrap">  
-      <!-- <span class="ref" style="font-size: 12px">> Eligibility for Nicaragua</span> -->
+      <!-- <span class="ref" style="font-size: 12px">> Eligibility for Nicarágua</span> -->
       <h2> Selection criteria for Incoming Class candidates, including characteristics to work collaboratively with Alumni members</h2>
       <ul>
         <h3>Common requirements:</h3>
@@ -394,7 +393,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
       <div class="ref-content"><br>
       <h3>Specific requirements for incoming Class candidates to work with each respective alumni:</h3><br><br>
         
-      <h3>Alumni Partner: Nicaragua Cleaner Production Center</h3></div>
+      <h3>Alumni Partner: Nicarágua Cleaner Production Center</h3></div>
       <ul>  
         <li><i><img src="img/ic.png"></i>Knowledge of agro-industrial and agriculture sector;</li>
         <li><i><img src="img/ic.png"></i> Verifiable experience on past executed projects assisting small farmers;</li>
@@ -409,127 +408,7 @@ Up to 95% of companies in Central America are Micro, Small, and Medium Enterpris
  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-<script>
-    // Changing the defaults
-window.sr = ScrollReveal({ reset: true });
-
-// Customizing a reveal set
+<script src="js/main.js"></script> 
  
-sr.reveal('.revel', { duration: 1500 });
-</script>
-<script> 
-
-    var getFlag=document.querySelectorAll('ul.list-flg li');
-    var getFlagTittle=document.getElementById ('flgTittle');
-    var getContFleg=document.querySelectorAll('.textFlagContent');
-    var innerCont=document.getElementById("flagContent");  
-    var actv=[];
-    innerCont.innerHTML="<p class=PMs>Please. Select country above to  check Eligibility</p>"
-        // getFlag.style.opacity="0.1"
-  
-        for (var i = 0; i < getFlag.length; i++) {
-        getFlag[i].style.opacity="0.5"
-        if (window.matchMedia("(max-width: 1200px)").matches){   
-          getFlag[i].addEventListener('touchmove', function(e) { 
-
-            console.log(">",actv.length)
-            if(actv.length==0) {
-                    actv.push(this)
-                    actv[0].classList.add("flagOpacity")  
-
-                }else { 
- 
-                    actv[0].classList.remove("flagOpacity") 
-                    actv.pop();actv.push(this)
-                    // console.log("2",actv.length)
-                     actv[0].classList.add("flagOpacity") 
-
-                }
-
-          }, false);
-      }
-              
-            getFlag[i].onclick=function(){ 
-
- 
-                if(actv.length==0) {
-                    // actv.push(this)
-                    actv.push(this,this.childNodes[0].innerHTML)
-                    console.log(actv)
-                    actv[0].classList.add("flagOpacity")  
-                    console.log(getFlagTittle)
-                    getFlagTittle.innerHTML+=" for "+actv[1]
-
-                }else { 
-                    actv[0].classList.remove("flagOpacity")     
-                    console.log(actv)
-                    getFlagTittle.innerHTML="Eligibility"
-                    actv=[];
-                    console.log(actv)
-                    actv.push(this,this.childNodes[0].innerHTML) 
-                    actv[0].classList.add("flagOpacity") 
-                    getFlagTittle.innerHTML+=" for "+actv[1]
-
-
-                }
-
-                var getID=this.getAttribute("id").split("#"); 
-                var getContThis=document.getElementById('content-'+getID[1]).innerHTML; 
-                if(getContThis!=null) innerCont.innerHTML=getContThis ; 
-           
-          }
-        }
-
-//Função read more
-
- 
-
-var getBox=document.querySelectorAll(".box.aside")
-
-for (var i = 0; i < getBox.length; i++) {
-  console.log("getBox[i]",getBox[i])
-
-  getBox[i].onclick=function(){
-    
-    var btnToggle=this.childNodes[1];
-    var boxAct=[];
-
-    boxAct.push(this)
-    console.log()
-    var boxThis=this
-
-    
-   
-
-
-      btnToggle.onclick=function(){ 
-        // btnToggle.childNodes[1].innerHTML="Close"
-       boxThis.classList.toggle("getHeigth") ;
-     
-
-         
-      }
-  }
-  
-}
-  
-
-
-
-$("a.anchor").click(function(event){
-   event.preventDefault();
-   var dest=0;
-   if($(this.hash).offset().top > $(document).height()-$(window).height()){
-     dest=$(document).height()-$(window).height();
-   }else{
-     dest=$(this.hash).offset().top;
-   }
-   $('html,body').animate({scrollTop:dest}, 1000,'swing');
- });
-</script> 
- 
-
-
 </html>
 
