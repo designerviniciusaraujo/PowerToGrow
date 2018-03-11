@@ -40,17 +40,25 @@ sr.reveal('.revel', { duration: 1500 });
                 if(actv.length==0) {
                     // actv.push(this)
                     actv.push(this,this.childNodes[0].innerHTML)
-                    console.log(actv)
+                    
                     actv[0].classList.add("flagOpacity")  
-                    console.log(getFlagTittle)
+                    
                     getFlagTittle.innerHTML+=" for "+actv[1]
 
                 }else { 
                     actv[0].classList.remove("flagOpacity")     
-                    console.log(actv)
+                     
+                    // var x = document.getElementsByTagName("BODY")[0].getAttribute("class"); 
+                    var x = document.getElementsByTagName("BODY")[0].getAttribute("id");
+                    console.log(x) 
+                    if(x=="esp"){
+                    getFlagTittle.innerHTML="Elegibilidad"
+
+                    }else{
                     getFlagTittle.innerHTML="Eligibility"
+                    }
                     actv=[];
-                    console.log(actv)
+                
                     actv.push(this,this.childNodes[0].innerHTML) 
                     actv[0].classList.add("flagOpacity") 
                     getFlagTittle.innerHTML+=" for "+actv[1]
