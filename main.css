@@ -284,6 +284,7 @@ ul.list-flg::-webkit-scrollbar-thumb {
 
 .box.aside ul li p {
     padding: 0px;
+    width: inherit;
 }
 
 
