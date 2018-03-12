@@ -207,11 +207,19 @@ a.tooltip:hover .tooltiptext {
     overflow: hidden;
     height: 500px;
     box-shadow: inset 0 -75px 138px -22px #cacaca;
+
 }
 
+
+
+
+.box.aside.boxChils.revel {
+    transform: .3s
+}
 .box.aside.boxChils.revel.getHeigth {
     height:100% !important;
     max-height:100% !important;
+    transition: .3s;
 }
 .moreContent {
         position: absolute;
@@ -241,6 +249,9 @@ a.tooltip:hover .tooltiptext {
 .box.aside.eligibility {
     height: auto;    /*overflow-y:auto;*/
     max-height: 100%;
+}
+.hidden {
+    display: none;
 }
 
 /*
