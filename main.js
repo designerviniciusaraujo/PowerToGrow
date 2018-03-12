@@ -8,16 +8,25 @@ sr.reveal('.revel', { duration: 1500 });
     var getFlagTittle=document.getElementById ('flgTittle');
     var getContFleg=document.querySelectorAll('.textFlagContent');
     var innerCont=document.getElementById("flagContent");  
+    var x = document.getElementsByTagName("BODY")[0].getAttribute("id");
+
     var actv=[];
-    innerCont.innerHTML="<p class=PMs>Please. Select country above to  check Eligibility</p>"
-        // getFlag.style.opacity="0.1"
+
+
+    if(x=="esp"){
+      innerCont.innerHTML="<p class=PMs>Por favor, selecciona un país para averiguar los criterios de elegibilidad</p>"
+
+    }else{
+      innerCont.innerHTML="<p class=PMs>Please, select a country from above to check eligibility</p>"
+
+
+    }    // getFlag.style.opacity="0.1"
   
         for (var i = 0; i < getFlag.length; i++) {
         getFlag[i].style.opacity="0.5"
         if (window.matchMedia("(max-width: 1200px)").matches){   
           getFlag[i].addEventListener('touchmove', function(e) { 
-
-            console.log(">",actv.length)
+ 
             if(actv.length==0) {
                     actv.push(this)
                     actv[0].classList.add("flagOpacity")  
@@ -26,7 +35,7 @@ sr.reveal('.revel', { duration: 1500 });
  
                     actv[0].classList.remove("flagOpacity") 
                     actv.pop();actv.push(this)
-                    // console.log("2",actv.length)
+                  
                      actv[0].classList.add("flagOpacity") 
 
                 }
@@ -38,19 +47,17 @@ sr.reveal('.revel', { duration: 1500 });
 
  
                 if(actv.length==0) {
-                    // actv.push(this)
-                    actv.push(this,this.childNodes[0].innerHTML)
-                    
-                    actv[0].classList.add("flagOpacity")  
-                    
+                    actv.push(this,this.childNodes[0].innerHTML)                    
+                    actv[0].classList.add("flagOpacity")   
+                    if(x=="esp"){ 
+                    getFlagTittle.innerHTML+=" "+actv[1]
+                  }else{
                     getFlagTittle.innerHTML+=" for "+actv[1]
 
+                  }
                 }else { 
                     actv[0].classList.remove("flagOpacity")     
-                     
-                    // var x = document.getElementsByTagName("BODY")[0].getAttribute("class"); 
-                    var x = document.getElementsByTagName("BODY")[0].getAttribute("id");
-                    console.log(x) 
+                      
                     if(x=="esp"){
                     getFlagTittle.innerHTML="Elegibilidad"
 
@@ -60,9 +67,13 @@ sr.reveal('.revel', { duration: 1500 });
                     actv=[];
                 
                     actv.push(this,this.childNodes[0].innerHTML) 
-                    actv[0].classList.add("flagOpacity") 
+                    actv[0].classList.add("flagOpacity")
+                    if(x=="esp"){ 
+                    getFlagTittle.innerHTML+=" "+actv[1]
+                    }else {
                     getFlagTittle.innerHTML+=" for "+actv[1]
 
+                    }
 
                 }
 
@@ -80,7 +91,6 @@ sr.reveal('.revel', { duration: 1500 });
 var getBox=document.querySelectorAll(".box.aside")
 
 for (var i = 0; i < getBox.length; i++) {
-  console.log("getBox[i]",getBox[i])
 
   getBox[i].onclick=function(){
     
@@ -88,7 +98,7 @@ for (var i = 0; i < getBox.length; i++) {
     var boxAct=[];
 
     boxAct.push(this)
-    console.log()
+ 
     var boxThis=this
 
     
