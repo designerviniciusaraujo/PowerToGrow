@@ -50,7 +50,7 @@ sr.reveal('.revel', { duration: 1500 });
                     actv.push(this,this.childNodes[0].innerHTML)                    
                     actv[0].classList.add("flagOpacity")   
                     if(x=="esp"){ 
-                    getFlagTittle.innerHTML+=" "+actv[1]
+                    getFlagTittle.innerHTML+=" para "+actv[1]
                   }else{
                     getFlagTittle.innerHTML+=" for "+actv[1]
 
@@ -69,7 +69,7 @@ sr.reveal('.revel', { duration: 1500 });
                     actv.push(this,this.childNodes[0].innerHTML) 
                     actv[0].classList.add("flagOpacity")
                     if(x=="esp"){ 
-                    getFlagTittle.innerHTML+=" "+actv[1]
+                    getFlagTittle.innerHTML+=" para "+actv[1]
                     }else {
                     getFlagTittle.innerHTML+=" for "+actv[1]
 
