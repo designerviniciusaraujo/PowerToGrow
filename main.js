@@ -101,14 +101,28 @@ for (var i = 0; i < getBox.length; i++) {
  
     var boxThis=this
 
-    
-   
+    boxThis.classList.toggle("getHeigth") ;
+    boxAct.push(btnToggle.childNodes[1].innerHTML)
 
+    console.log(boxThis.getAttribute("class")!="box aside boxChils revel")
+    
+
+     if(boxThis.getAttribute("class")!="box aside boxChils revel"){
+      if(x=="esp"){
+        btnToggle.childNodes[1].innerHTML="Cerca"}else{
+        btnToggle.childNodes[1].innerHTML="Close"
+        }
+
+     }else{
+
+     setTimeout(function(){ 
+    btnToggle.childNodes[1].innerHTML="Read More" }, 250);
+
+     }
 
       btnToggle.onclick=function(){ 
         // btnToggle.childNodes[1].innerHTML="Close"
-       boxThis.classList.toggle("getHeigth") ;
-     
+      console.log(btnToggle.childNodes)
 
          
       }
