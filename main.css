@@ -472,7 +472,7 @@ a.ghost:hover {
 
 .txt-primary {
     color: #2c2b2b;
-    font-weight: bold;
+    font-weight: normal;
     display:    flex;   
 }
 
