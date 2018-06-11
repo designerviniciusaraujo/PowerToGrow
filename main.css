@@ -80,8 +80,15 @@ aside h2 {
     font-size: 20px;
 }
 img {max-width: 100%}
-.information img {
-    background: red;
+.information {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center; 
+}
+.information img { 
     display: block;
     margin: 0 auto;
     max-width: 100%;
